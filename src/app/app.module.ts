@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { RecipeComponent } from './recipe/recipe.component';
 import { RecipebookComponent } from './recipebook/recipebook.component';
+import { ZutatComponent } from './zutat/zutat.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RecipeComponent,
-    RecipebookComponent
+    RecipebookComponent,
+    ZutatComponent
   ],
   imports: [
     BrowserModule
